@@ -3,22 +3,41 @@
 		<head>
 			<title>CENTRO ESCOLAR UNIVERSITY</title>
 			<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			let mainNav = document.getElementById('js-menu');
+			let navBarToggle = document.getElementById('js-navbar-toggle');
+
+			navBarToggle.addEventListener('click', function () {
+    
+   			mainNav.classList.toggle('active');
+			});
 		</head>
 			<body>
-				<div id="sidebar">
-					<div class="toggle-btn">
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
-					<ui>
-						<li>HOME</li>
-						<li>ABOUT</li>
-						<li>GALLERY</li>
-						<li>CONTACT US</li>
-					</ui>
-
-				</div>
+				<h1>CENTRO ESCOLAR UNIVERSITY
+				</h1>
+				<nav class="navbar">
+        			<span class="navbar-toggle" id="js-navbar-toggle">
+            				<i class="fas fa-bars"></i>
+        			</span>
+        				<a href="#" class="logo">logo</a>
+        				<ul class="main-nav" id="js-menu">
+            				<li>
+                				<a href="#" class="nav-links">Home</a>
+            				</li>
+            				<li>
+                				<a href="#" class="nav-links">Products</a>
+            				</li>
+            				<li>
+                				<a href="#" class="nav-links">About Us</a>
+            				</li>
+            				<li>
+                				<a href="#" class="nav-links">Contact Us</a>
+            				</li>
+            				<li>
+                				<a href="#" class="nav-links">Blog</a>
+            				</li>
+        				</ul>
+    			</nav>
 			</body>
 	</html>
 

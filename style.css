@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar{
+
+	position: fixed;
+	width: 10%;
+	height: 100%;
+	left: -30%;
+	background-color: pink;
+}
+
+#sidebar li{
+
+	color: white;
+	font-size: 100%;
+	padding: 30%;
+	border-bottom: 1px solid gray;
+	text-align: center;
+}
+
+.toggle-btn{
+
+	position: absolute;
+	left: 100%;
+	top: 15px;
+}
+
+.toggle-btn span{
+
+	display: block;
+	background-color: : pink;
+	width: 30px;
+	height: 5px;
+	margin: 3px;
+}
+
+#sidebar.active{
+	left
+}
